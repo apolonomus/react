@@ -2,7 +2,7 @@
 import './Navbar.css'
 import CartWidget from '../CartWidget'
 
-const Navbar  = () => {
+const Navbar  = (props) => {
     return (
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <h1>APOLO COMPANY</h1>
